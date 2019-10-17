@@ -1,2 +1,3 @@
 module java_tut {
+	
 }
