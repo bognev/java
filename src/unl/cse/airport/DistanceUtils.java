@@ -1,4 +1,4 @@
-package unl.cse;
+package unl.cse.airport;
 
 public class DistanceUtils {
 	public static final double EARTH_RADIUS = 6371;

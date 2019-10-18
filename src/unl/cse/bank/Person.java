@@ -1,4 +1,4 @@
-package unl.cse.data;
+package unl.cse.bank;
 
 import java.time.LocalDate;
 
@@ -8,4 +8,9 @@ public class Person {
 	String socialSecurityNumber;
 	Adress address;
 	LocalDate birthDate;
+	public Person(String firstName, String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		
+	}
 }

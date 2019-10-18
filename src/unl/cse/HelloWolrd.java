@@ -128,6 +128,7 @@ public class HelloWolrd {
 		System.out.println("Enter y2");
 		double y2 = s.nextDouble();
 		System.out.println(HelloWolrd.euclideanDistance(x2, y2, x1, y1));
+		s.close();
 	}
 
 	public static void readFile() {
@@ -140,11 +141,12 @@ public class HelloWolrd {
 				System.out.println(Arrays.toString(tokens));
 				System.out.println(line);
 			}
+			s.close();
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
+		}		
 	}
 
 	public static void writeFile() {

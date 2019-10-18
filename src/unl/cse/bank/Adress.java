@@ -1,4 +1,4 @@
-package unl.cse.data;
+package unl.cse.bank;
 
 public class Adress {
 	String Street;

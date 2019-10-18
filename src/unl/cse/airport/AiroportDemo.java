@@ -1,4 +1,4 @@
-package unl.cse;
+package unl.cse.airport;
 
 import java.util.ArrayList;
 import java.util.Collections;

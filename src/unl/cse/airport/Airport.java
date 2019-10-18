@@ -1,4 +1,4 @@
-package unl.cse;
+package unl.cse.airport;
 
 public class Airport {
 
